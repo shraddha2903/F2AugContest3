@@ -1,0 +1,117 @@
+.my-side-nav{
+   background-color: black;
+   height: 100vh;
+   
+   color: white;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* left: 0px; */
+  /* top: 0px; */
+  /* -webkit-overflow-scrolling: scroll; */
+
+  overflow-x:hidden;
+  overflow-y: auto;
+  /* position: fixed; */
+  margin-bottom: 0px;
+  
+
+}
+.my-container{
+    display: flex;
+    flex-direction: row; 
+    height: 100vh; 
+}
+.side-img{
+    width: 60%;
+    
+}
+.img-div{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.my-text{
+    text-align: center;
+}
+.my-hr{
+    /* width: 100%; */
+    
+}
+.my-list-1{
+
+}
+
+/* ================================= */
+.right{
+    background-color: rgb(13, 13, 13);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+}
+.main-top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(21, 20, 20);
+   
+}
+.top-right-logo{
+    width: 20%;
+}
+.top-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+     
+}
+.logo{
+    width: 10%px;
+}
+.my-search-bar{
+    /* display: flex; */
+    width: 90%;
+    
+}
+.my-buttons
+{
+    display: flex;
+    justify-content: space-between;
+}
+.my-search-bar>input{
+    width: 90%;
+    background-color: rgb(38, 36, 36);
+    border:none;
+    padding: 5px;
+}
+.main-header-img>img{
+    width: 75vw;
+}
+.main-header-img{
+    padding: 10px;
+}
+.my-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-plus{
+    background-color: rgb(30, 29, 29);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.my-menu-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.my-card{
+    margin-top: 10px;
+}
